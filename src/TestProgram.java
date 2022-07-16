@@ -74,7 +74,6 @@ public class TestProgram {
     return true;
   }
 
-
   public  boolean isNumber(char c) {
     if (c >= 48 && c <= 57) {
       return true;
@@ -95,7 +94,6 @@ public class TestProgram {
     }
     return false;
   }
-
 
   public static void main(String args[]){
     TestProgram tp = new TestProgram();
