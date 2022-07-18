@@ -4,6 +4,7 @@ import java.util.Deque;
 public class TestProgram {
 
   public boolean checkFormula(String input) {
+    if (input.length() < 1) return false;
     input = input.replaceAll(" ","");
     Deque<Character> numberStack = new ArrayDeque<>();
     Deque<Character> operatorBracketStack = new ArrayDeque<>();
